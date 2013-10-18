@@ -44,7 +44,7 @@ var commands = {
                 ts.push(str);
             });
 
-            ts.push('<br>Please contribute commands on <a href="https://github.com/CWSpear/SurgeTronCommands/">GitHub</a>');
+            ts.push('<br>Please contribute commands on <a href="https://github.com/CWSpear/SurgeTron/">GitHub</a>');
 
             return ts.join('<br>');
         },
