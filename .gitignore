@@ -1,0 +1,5 @@
+# ignore config files (don't want credentials on the repo!)
+config.js
+
+# ignore node_modules (use `npm install` to install them in your local repo)
+node_modules/
