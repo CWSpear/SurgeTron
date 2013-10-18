@@ -9,6 +9,9 @@ if(process.argv.length < 3) {
 try {
     require('./implementations/' + process.argv[2] + '/server.js');
 } catch(e) {
-    console.log('Invalid implementation: ' + process.argv[2]);
+    if(e.code === 'MODULE_NOT_FOUND')
+        console.log('Invalid implementation: ' + process.argv[2]);
+    else
+        console.error(e);
     process.exit(1);
 }
