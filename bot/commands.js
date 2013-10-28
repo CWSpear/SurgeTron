@@ -1,5 +1,5 @@
 var _ = require('underscore');
-var Q = require('Q');
+var Q = require('q');
 var request = require('request');
 var util = require('util');
 var bamboo = require('../bamboo/config.js');
