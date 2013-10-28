@@ -3,6 +3,7 @@
   "version": "0.8.7",
   "description": "I'm sorry Dave, I'm afraid I can't do that.",
   "main": "index.js",
+  "private": true,
   "dependencies": {
     "irc": "~0.3.6",
     "irc-colors": "~1.0.3",

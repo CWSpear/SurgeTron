@@ -3,3 +3,7 @@ config.js
 
 # ignore node_modules (use `npm install` to install them in your local repo)
 node_modules/
+
+# ignore sublime project files
+*.sublime-project
+*.sublime-workspace
