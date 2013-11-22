@@ -1,6 +1,6 @@
 {
   "name": "SurgeTron",
-  "version": "0.8.7",
+  "version": "0.9.0",
   "description": "I'm sorry Dave, I'm afraid I can't do that.",
   "main": "index.js",
   "private": true,
@@ -12,7 +12,10 @@
     "q": "~0.9.7",
     "request": "~2.27.0",
     "simple-xmpp": "~0.1.16",
-    "underscore": "~1.5.2"
+    "underscore": "~1.5.2",
+    "commander": "~2.1.0",
+    "co": "~2.3.0",
+    "co-prompt": "~1.0.0"
   },
   "devDependencies": {},
   "scripts": {
