@@ -49,7 +49,7 @@ cl.on('stanza', function(stanza) {
     if (stanza.attrs.type == 'error') {
         // console.log(util.inspect(stanza, { colors:true, depth:null }));
         try {
-            if(stanza.getChild('error').attrs['type'] != 'cancel')
+            // if(stanza.getChild('error').attrs['type'] != 'cancel')
                 // util.log('[error] ' + stanza);
         } catch(e) {
             // util.log('[error] ' + stanza);
