@@ -48,12 +48,12 @@ cl.on('stanza', function(stanza) {
     // always log error stanzas
     if (stanza.attrs.type == 'error') {
         // console.log(util.inspect(stanza, { colors:true, depth:null }));
-        try {
-            // if(stanza.getChild('error').attrs['type'] != 'cancel')
-                // util.log('[error] ' + stanza);
-        } catch(e) {
-            // util.log('[error] ' + stanza);
-        }
+        // try {
+        //     if(stanza.getChild('error').attrs['type'] != 'cancel')
+        //         util.log('[error] ' + stanza);
+        // } catch(e) {
+        //     util.log('[error] ' + stanza);
+        // }
         return;
     }
 
