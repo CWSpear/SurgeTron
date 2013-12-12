@@ -7,3 +7,5 @@ node_modules/
 # ignore sublime project files
 *.sublime-project
 *.sublime-workspace
+
+newrelic.js

@@ -22,7 +22,7 @@ var cl = new xmpp.Client({
  
 // Once connected, set available presence and join room
 cl.on('online', function() {
-    util.log("We're online!");
+    // util.log("We're online!");
  
     // set ourselves as online
     cl.send(new xmpp.Element('presence', { type: 'available' }).
@@ -50,9 +50,9 @@ cl.on('stanza', function(stanza) {
         // console.log(util.inspect(stanza, { colors:true, depth:null }));
         try {
             if(stanza.getChild('error').attrs['type'] != 'cancel')
-                util.log('[error] ' + stanza);
+                // util.log('[error] ' + stanza);
         } catch(e) {
-            util.log('[error] ' + stanza);
+            // util.log('[error] ' + stanza);
         }
         return;
     }
@@ -73,7 +73,7 @@ cl.on('stanza', function(stanza) {
     var text = body.getText();
 
     var from = stanza.attrs.from.replace(config.room_jid + '/', '');
-    util.log('[info] (' + from + ') ' + text);
+    // util.log('[info] (' + from + ') ' + text);
 
     if(from == 'SurgeTron') {
         // util.log('[info] skip message from bot');
