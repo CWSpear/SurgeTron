@@ -2,7 +2,7 @@ var sys = require('sys');
 var util = require('util');
 var xmpp = require('node-xmpp');
 var Q = require('q');
-var _ = require('underscore');
+var _ = require('lodash');
 var HipChatClient = require('node-hipchat');
 
 var bot = require('../../bot/bot.js');

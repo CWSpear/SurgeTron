@@ -1,6 +1,6 @@
 var helper = require('./helper.js');
 var commands = require('./commands.js');
-var _ = require('underscore');
+var _ = require('lodash');
 var util = require('util');
 
 var triggeredCommand = function(text) {
