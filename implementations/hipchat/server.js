@@ -7,7 +7,7 @@ var HipChatClient = require('node-hipchat');
 
 var bot = require('../../bot/bot.js');
 
-module.exports = function(config){
+module.exports = function(config) {
     var hipchat = new HipChatClient(config.hipchat_apikey);
     
     var cl = new xmpp.Client({

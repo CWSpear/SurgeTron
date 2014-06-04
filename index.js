@@ -1,6 +1,6 @@
 var util = require('util');
 
-module.exports = function(botType, config){
+module.exports = function(botType, config) {
     try {
         require('./implementations/' + botType + '/server.js')(config);
     } catch(e) {
