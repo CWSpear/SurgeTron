@@ -20,9 +20,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "bot"
-    ,"irc"
-    ,"hipchat"
+    "bot",
+    "irc",
+    "hipchat"
   ],
   "repository"  : {
         "type": "git",
