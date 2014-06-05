@@ -1,9 +1,9 @@
 {
-  "name": "SurgeTron",
-  "version": "0.8.7",
-  "description": "I'm sorry Dave, I'm afraid I can't do that.",
+  "name": "surge-tron",
+  "version": "1.0.1",
+  "description": "Hipchat and IRC bot.",
   "main": "index.js",
-  "private": true,
+  "private": false,
   "dependencies": {
     "irc": "~0.3.6",
     "irc-colors": "~1.0.3",
@@ -21,7 +21,15 @@
   },
   "keywords": [
     "bot"
+    ,"irc"
+    ,"hipchat"
   ],
-  "author": "CWSpear",
+  "repository"  : {
+        "type": "git",
+        "url": "https://github.com/CWSpear/SurgeTron"
+    },
+    "bugs"        : "https://github.com/CWSpear/SurgeTron/issues",
+    "contributors": ["Cameron Spear",  "Justen Martin"],
+  "author": "Cameron Spear",
   "license": "MIT"
 }
